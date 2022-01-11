@@ -12,6 +12,5 @@ const defaultFilters = [
 	"*://*.quantserve.com/*",
 	"*://*.scorecardresearch.com/*",
 	"*://*.zedo.com/*",
-    "*://*.outbrain.com/*",
 ]
 ```
