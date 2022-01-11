@@ -9,11 +9,16 @@ const defaultFilters = [
 	"*://*.quantserve.com/*",
 	"*://*.scorecardresearch.com/*",
 	"*://*.zedo.com/*",
-    "*://*.outbrain.com/*",
 ]
-
+//Firefox:
 browser.webRequest.onBeforeRequest.addListener(
     function(details) { return { cancel: true }},
     { urls: defaultFilters },
     ["blocking"]
 )
+//Chrome:
+//chrome.webRequest.onBeforeRequest.addListener(
+//  function(details) { return { cancel: true }},
+//  { urls: defaultFilters },
+//  ["blocking"]
+//)
