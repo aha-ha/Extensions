@@ -1,0 +1,13 @@
+{
+    "name": "AracoAdblocker",
+    "version": "1.0",
+    "description": "A simple Adblocker using WebRequest",
+    "permissions": ["webRequest", "webRequestBlocking", "<all_urls>"],
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "icons": {
+        "128": "icons/128x128.png"
+    },
+    "manifest_version": 2
+}
